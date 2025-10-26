@@ -8,7 +8,7 @@ export function CreateContentModel({open,onClose}){
                 <div className="flex flex-col justify-center">
                     <span className="bg-white p-4 rounded">
                         <div className=" flex justify-end">
-                            <div onClick={onClose} className="cursor-pointer">
+                            <div onClick={onClose} className="cursor-pointer ">
                                 <CrossIcon />
                             </div>
                             
